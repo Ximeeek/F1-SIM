@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Web Racer Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+    <canvas id="gameCanvas"></canvas>
+    
+    <div id="hud">
+        <div>POZYCJA: <span id="pos-display" class="hud-value">-</span></div>
+        <div>OKRĄŻENIE: <span id="lap-display" class="hud-value">-</span></div>
+        <div class="controls-hint">STEROWANIE: W S A D</div>
+    </div>
+
+    <div id="end-screen">
+        <h1 id="end-title">META</h1>
+        <p id="end-stats"></p>
+        <button onclick="location.reload()">NOWY WYŚCIG</button>
+    </div>
+</div>
+
+<script type="module" src="src/main.js"></script>
+
+</body>
+</html>
