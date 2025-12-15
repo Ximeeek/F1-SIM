@@ -65,9 +65,8 @@ W	Przyspieszenie (Gaz)
 S	Hamowanie / Wsteczny
 A	Skręt w lewo
 D	Skręt w prawo
-📂 Struktura Projektu
-Plaintext
 ```
+📂 Struktura Projektu
 ```
 F1-SIM/
 ├── src/
