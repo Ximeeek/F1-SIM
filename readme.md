@@ -56,7 +56,7 @@ Bash
 
 # Python 3.x
 python -m http.server
-
+```
 🎮 Sterowanie
 Klawisz	Akcja
 W	Przyspieszenie (Gaz)
