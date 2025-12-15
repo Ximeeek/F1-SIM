@@ -59,7 +59,7 @@ python -m http.server
 ```
 
 🎮 Sterowanie
-```
+```bash
 Klawisz	Akcja
 W	Przyspieszenie (Gaz)
 S	Hamowanie / Wsteczny
@@ -67,7 +67,7 @@ A	Skręt w lewo
 D	Skręt w prawo
 ```
 📂 Struktura Projektu
-```
+```bash
 F1-SIM/
 ├── src/
 │   ├── core/           # Pętla gry i zarządzanie stanem
@@ -82,7 +82,7 @@ F1-SIM/
 
 Wszystkie parametry symulacji znajdziesz w pliku src/utils/Config.js. Możesz łatwo dostosować rozgrywkę:
 JavaScript
-```
+```bash
 export const Config = {
     MAX_LAPS: 75,       // Liczba okrążeń
     CAR_COUNT: 8,       // Ilość bolidów na torze
